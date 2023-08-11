@@ -1,0 +1,159 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  font-family: "Roboto", sans-serif;
+
+  background-color: gray;
+}
+
+#app {
+  height: 100%;
+}
+
+nav {
+  padding-top: 4rem;
+  padding-left: 7rem;
+
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.4rem;
+}
+
+nav a {
+  color: #c4c4cc;
+
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  line-height: 2.2rem;
+
+  text-decoration: none;
+}
+
+nav a.focus {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+#home {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  background: url(/images/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#home h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #e1e1e6;
+}
+
+#home a {
+  padding: 1.2rem 3.2rem;
+
+  border: 0.2rem solid white;
+  border-radius: 0.5rem;
+
+  background-color: transparent;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.4s;
+}
+
+#home a:hover {
+  background-color: white;
+
+  color: #02799d;
+}
+
+#universo {
+  background: url(/images/mountains-universe-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#universo h1 {
+  width: 50%;
+
+  margin-top: -6rem;
+  margin-left: 10.2rem;
+
+  color: #e1e1e6;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+#universo p {
+  width: 45%;
+
+  margin-left: 10.2rem;
+
+  color: #e1e1e6;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+#exploracao {
+  background: url(/images/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#exploracao h1 {
+  width: 50%;
+
+  margin-top: -6rem;
+  margin-left: 10.2rem;
+
+  color: #e1e1e6;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+#exploracao p {
+  width: 45%;
+
+  margin-left: 10.2rem;
+
+  color: #e1e1e6;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
